@@ -1,6 +1,6 @@
 package Section1;
 
-public class exam2 {
+public class question2 {
     public static void main(String[] args) {
         /*
         (Display five messages) Write a program that displays Welcome to Java five times.

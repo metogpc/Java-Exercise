@@ -1,6 +1,6 @@
 package Section1;
 
-public class exam11 {
+public class question11 {
 
     public static void main(String[] args) {
         /*

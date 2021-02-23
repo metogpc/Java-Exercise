@@ -1,6 +1,6 @@
 package Section1;
 
-public class exam5 {
+public class question5 {
     public static void main(String[] args) {
         /*
         (Compute expressions) Write a program that displays the result of

@@ -2,7 +2,7 @@ package Section1;
 
 import java.util.Scanner;
 
-public class exam9 {
+public class question9 {
     public static void main(String[] args) {
 
         /*

@@ -1,6 +1,6 @@
 package Section1;
 
-public class exam4 {
+public class question4 {
     public static void main(String[] args) {
         /*
         (Print a table) Write a program that displays the following table:

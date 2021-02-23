@@ -1,8 +1,8 @@
 package Section2;
 
-import static Section2.exam1.scn;
+import static Section2.question1.scn;
 
-public class exam4 {
+public class question4 {
 
     public static void main(String[] args) {
         /*

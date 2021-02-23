@@ -1,6 +1,6 @@
 package Section1;
 
-public class exam7 {
+public class question7 {
     public static void main(String[] args) {
         /*
         p can be computed using the following formula:

@@ -1,10 +1,8 @@
 package Section2;
 
-import java.util.Scanner;
+import static Section2.question1.scn;
 
-import static Section2.exam1.scn;
-
-public class exam2 {
+public class question2 {
     public static void main(String[] args) {
         /*
         Compute the volume of a cylinder) Write a program that reads in the radius and length of a cylinder and computes the area and volume using the
