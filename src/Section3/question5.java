@@ -13,19 +13,8 @@ public class question5 {
         if(a<100)
             System.out.println("Sayı 100 den küçük boyu sayı kontrol edilemez");
         else{
-            while(c==true){//a nın basamak sayısını bulduğumuz kısım
-                if(a<Math.pow(10, i)){
-                    b=i;
-                    c=false;
-                }
-                else
-                    i++;
-            }
-            int[] basamaklar=new int[b];
-            /* Basamaklarımızı doğru buldumuzun kontrolü
-            for(int k:basamaklar)
-                System.out.print(k+" ");
-                */
+
+            int[] basamaklar=new int[basamaksayisi(a)];
 
             if(polindrom(basamaklariAktar(basamaklar,a,b)))
                 System.out.println(a+"Sayımız polindromdur");
@@ -34,6 +23,17 @@ public class question5 {
 
         }
 
+    }
+    private static int basamaksayisi(int sayi){
+        boolean c=true;
+        int i=3;
+        while(c==true){//a nın basamak sayısını bulduğumuz kısım
+            if(sayi<Math.pow(10, i))
+                c=false;
+            else
+                i++;
+        }
+        return i;
     }
     private static boolean polindrom(int[] basamaklar){
         boolean q=true;
